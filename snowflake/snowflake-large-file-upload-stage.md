@@ -63,7 +63,7 @@ connection_parameters = {
 session = Session.builder.configs(connection_parameters).create()
 
 session.file.put(
-    "C:/Users/<toi>/Downloads/mon_fichier.zip",
+    "C:/Users/<toi cassan1001>/Downloads/mon_fichier.zip",
     "@STG_RAW_DATASETS",
     auto_compress=False,   # mettre True si fichier non déjà compressé
     overwrite=True,
